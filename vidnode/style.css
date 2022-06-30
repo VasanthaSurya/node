@@ -1,0 +1,60 @@
+.container{
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background-color: rgb(152,152,252);
+}
+
+body::-webkit-scrollbar {
+   display: none;
+}
+
+.maincont{
+    height: 100%;
+    background-color: rgb(152,252,152);
+    overflow: scroll;
+}
+
+.maincont::-webkit-scrollbar {
+    display: none;
+  }
+
+.nav{
+    display: flex;
+}
+
+.btns{
+    background-color: red;
+    padding: 1%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    padding: 1%;
+    margin: auto; 
+}
+
+.vid{
+    padding: 2%;
+    margin: auto;
+    resize: both;
+    overflow: auto;
+}
+
+.vid1{
+    padding: 2%;
+    justify-content: space-around;
+}
+
+.mv,.vid2{
+    width: 100%;
+}

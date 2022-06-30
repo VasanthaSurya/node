@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DVA does overwatch</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="btns">Youtube</div>
+            <div class="btns">VLC</div>
+            <div class="btns">Someother player</div>
+        </div>
+        <div class="class1">
+        <div class="controls">
+            <div class="btn">
+                <button type="button" onclick="Play()" name="play">Play</button>
+                <button type="button" onclick="Pause()" name="Pause">Pause</button>
+                <button type="button" onclick="seekF()" name="SeekF">Seek Forward</button>
+                <button type="button" onclick="seekB()" name="SeekB">Seek backward</button>
+                <button type="button" onclick="seekstart()" name="seekstart">Seek to start</button>
+                <input type="number" name="st" value="0" id="st"/>
+                <button type="button" onclick="seektoM()" name="ht">seek to minute</button>
+                <input type="number" name="sts" value="0" id="sts"/>
+                <button type="button" onclick="seektoS()" name="sts">seek seconds</button>
+                <button type="button" onclick="playspd()" name="playspd">playback speed</button>
+                <button type="button" onclick="seekcurrent()" name="seekcrt">seek current</button>
+                <input type="file" name="client-file" id="get-files" multiple/>
+            </div>
+        </div>
+        <div class="maincont">
+            <div class="row">
+                <div class="vid">
+                    <video class="mv" controls>
+                        <source src="D:\Restricted\hidden\vid1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="vid">
+                    <video class="mv" controls>
+                        <source src="D:\Restricted\hidden\vid2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="vid">
+                    <video class="mv" controls>
+                        <source src="D:\Restricted\hidden\vid3.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="row">
+                <div class="vid">
+                    <video class="mv" controls>
+                        <source src="D:\Restricted\hidden\vid4.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="vid">
+                    <video class="mv" controls>
+                        <source src="D:\Restricted\hidden\vid5.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="vid">
+                    <video class="mv" controls>
+                        <source src="D:\Restricted\hidden\vid6.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="row">
+                <div class="vid">
+                    <video class="mv" controls>
+                        <source src="D:\Restricted\hidden\vid7.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="vid">
+                    <video class="mv" controls>
+                        <source src="D:\Restricted\hidden\vid8.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="vid">
+                    <video class="mv" controls>
+                        <source src="D:\Restricted\hidden\vid9.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class="class2">
+        <div class="controls">
+            <div class="btn">
+                <button type="button" onclick="Play2()" name="play">Play</button>
+                <button type="button" onclick="Pause2()" name="Pause">Pause</button>
+                <button type="button" onclick="seekF5()" name="seekF5">Seek F5s</button>
+                <button type="button" onclick="seekF10()" name="seekF10">Seek F10s</button>
+                <input type="number" name="st2" value="10" id="st2"/>
+                <button type="button" onclick="seektoM2()" name="ht">seek to minute</button>
+                <button type="button" onclick="seekB5()" name="SeekB5">Seek B5s</button>
+                <button type="button" onclick="seekB10()" name="SeekB10">Seek B10s</button>
+                <button type="button" onclick="seekstart2()" name="seekstart">Seek to start</button>
+                <input type="number" name="st" value="0" id="st"/>
+                <!-- <button type="button" onclick="seektoM2()" name="ht">seek to minute</button> -->
+                <button type="button" onclick="playspd2()" name="playspd">playback speed</button>
+            </div>
+        </div>
+        <div class="maincont">
+            <div class="row">
+                <div class="vid1">
+                    <video class="vid2" controls>
+                        <source src="D:\Restricted\hidden\vid6.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="vid1">
+                    <video class="vid2" controls>
+                        <source src="D:\Restricted\hidden\vid6.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="vid1">
+                    <video class="vid2" controls>
+                        <source src="D:\Restricted\hidden\vid6.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="row">
+                <div class="vid1">
+                    <video class="vid2" controls>
+                        <source src="D:\Restricted\hidden\vid6.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="vid1">
+                    <video class="vid2" controls>
+                        <source src="D:\Restricted\hidden\vid6.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="vid1">
+                    <video class="vid2" controls>
+                        <source src="D:\Restricted\hidden\vid6.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>   
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
